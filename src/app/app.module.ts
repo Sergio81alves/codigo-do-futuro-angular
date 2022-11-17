@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 
 import { MainComponent } from './component-sidebar/main/main.component';
 import { SidebarComponent } from './component-sidebar/sidebar/sidebar.component';
+import { SectionComponent } from './section/section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
-    SidebarComponent
+    SidebarComponent,
+    SectionComponent,
   ],
   imports: [
     BrowserModule,
